@@ -1,0 +1,1 @@
+# 首次编写 k8s 部署 Microsoft SQL Server 2019

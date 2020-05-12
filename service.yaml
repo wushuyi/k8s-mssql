@@ -1,0 +1,15 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name:  mssql1-service
+  labels:
+    app: mssql1
+spec:
+  selector:
+    app:  mssql1
+  type:  LoadBalancer
+  ports:
+  - name:  mssql
+    port:  1433
+    targetPort:  1433
+    protocol: TCP
